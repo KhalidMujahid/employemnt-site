@@ -23,14 +23,14 @@ body {
 }
 .container .contact_data {
   background: #fff;
-  width: 900px;
+  width: 90%;
   border-radius: 02px;
   border-top: 04px solid #47b2e4;
-  margin: 0 10px;
+  margin: 8px 10px;
 }
 
 .container .contact_data form {
-  padding: 0 1rem;
+  padding: 0 0;
 }
 
 .container .contact_data form input,
@@ -73,22 +73,3 @@ textarea , .dropdown {
 }
 
 
-
-@media (max-width: 1037px) {
-  .container .contact_data,
-  .contact_data2 {
-    width: 80%;
-    margin: 10px 0px;
-  }
-  .container .contact_data h2 {
-    width: 50%;
-  }
-}@media (max-width: 768px) {
-  .container .contact_data2 {
-    width: 75%;
-    margin: 10px 0px;
-  }
-  .container .contact_data h2 {
-    width: 50%;
-  }
-}
