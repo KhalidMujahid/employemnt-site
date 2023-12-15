@@ -1,0 +1,112 @@
+/* @media (max-width: 900px) {
+   
+    .nav{
+        display: none;
+    }
+    
+} */
+
+@media (max-width:1100px) {
+   
+    .header {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .showcase-item{
+        margin-bottom: 40px;
+    }
+
+    .section {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .section-item{
+        margin-bottom: 40px;
+    }
+}
+
+/* @media (max-width:400px){
+    .header .{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .showcase-item{
+        margin-bottom: 40px;
+    }
+
+} */
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar > .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width:100%;
+      
+  }
+   .logo{
+     font-size: 15px;
+   }  
+  .nav-side a{
+      padding: 1rem 1.2rem;
+      color: white;
+      border-radius: 8px;
+      background-color: black;
+      text-align: center;
+      font-size: 11px;
+  }
+    .header  {
+      flex-direction: column; 
+      padding: 30px; /* Adjust top padding for header on small screens */
+    }
+  
+    .showcase-item {
+      margin-left: 0
+      /* Remove left margin for showcase item on small screens */
+    }
+  .showcase-item > h1{
+      font-size: 26px;
+  }
+  .showcase-item p{
+      font-size: 18px;
+      color: black;   
+      margin-bottom: 30px; 
+  }
+  #small span a{
+   margin-left: 0;
+  }
+    #header-btn {
+      padding: 15px; /* Adjust padding for header button on small screens */
+    }
+  
+    img {
+      width: 100%; /* Make images responsive by taking 100% of the container width */
+      height: auto; /* Maintain image aspect ratio */
+    }
+  
+    .section{
+      flex-direction: column; 
+      padding-top: 10px; 
+      
+    }
+  
+    .section-item {
+        /* margin-bottom: 30px; */
+      margin-left: 0; /* Remove left margin for section item on small screens */
+    }
+    .section .section-item h1{
+  
+      font-size: 26px;
+    }
+    .section .section-item p{
+  
+      font-size: 15px;
+  }
+  .section-item > img {
+    padding-top: 12px;
+  }
+  }
